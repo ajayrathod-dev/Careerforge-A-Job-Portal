@@ -1,0 +1,42 @@
+# Server & PHP error logs
+error_log
+*/error_log
+*.log
+
+# Environment & Sensitive configs
+.env
+.env.local
+.env.*.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# User uploads - ignore user files but preserve directory structure
+uploads/certificates/*
+!uploads/certificates/.gitkeep
+uploads/covers/*
+!uploads/covers/.gitkeep
+uploads/portfolios/*
+!uploads/portfolios/.gitkeep
+uploads/profiles/*
+!uploads/profiles/.gitkeep
+uploads/resumes/*
+!uploads/resumes/.gitkeep
+admin/uploads/blogs/*
+!admin/uploads/blogs/.gitkeep
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.swp
